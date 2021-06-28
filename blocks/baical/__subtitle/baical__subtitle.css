@@ -1,0 +1,16 @@
+.baical__subtitle {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    width: 360px;
+}
+
+@media screen and (max-width: 360px) {
+    .baical__subtitle {
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+        
+}

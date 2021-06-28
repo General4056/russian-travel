@@ -1,0 +1,12 @@
+.places__top {
+    display: flex;
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width: 680px) {
+    .places__top {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+    
+}

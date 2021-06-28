@@ -1,0 +1,9 @@
+.baical {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .baical {
+        padding-top: 8px;
+    }  
+} 

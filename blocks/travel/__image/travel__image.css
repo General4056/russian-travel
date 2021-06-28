@@ -1,0 +1,17 @@
+.travel__image {
+    width: 985px;
+    max-height: 615px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel__image {
+        max-width: 930px;
+    }    
+}
+
+@media screen and (max-width: 930px) {
+    .travel__image {
+        width: 100%;
+    }    
+}
