@@ -3,7 +3,7 @@
     margin: 0;
     font-size: 72px;
     line-height: 76px;
-    font-weight: bold;
+    font-weight: 900;
     padding-right: 40px;
 }
 
@@ -15,7 +15,7 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .places__title {
         max-width: 340px;
         padding-right: 28px;
@@ -25,12 +25,12 @@
     
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
     .places__title {
+        padding: 0 0 0 16px;
         max-width: 280px;
         font-size: 32px;
         line-height: 35px;
-        padding: 0 0 0 16px;
     }
     
 }

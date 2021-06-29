@@ -11,22 +11,16 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .places__texts {
         max-width: 352px;
     }
     
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 750px) {
     .places__texts {
         max-width: 100%;
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    .places__texts {
         padding: 32px 16px 0;
     }
     

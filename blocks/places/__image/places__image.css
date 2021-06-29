@@ -13,7 +13,7 @@
     
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .places__image {
         max-width: 340px;
         padding-right: 28px;
@@ -21,10 +21,11 @@
     
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 750px) {
     .places__image {
         max-width: 100%;
-        padding: 0;
+        padding: 0;        
+        align-self: center;
     }
     
 }

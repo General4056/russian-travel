@@ -1,6 +1,14 @@
 .travel {
+    max-width: 985px;
+    margin: 0 auto;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel {
+        max-width: 930px;
+    }    
 }

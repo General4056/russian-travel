@@ -1,9 +1,29 @@
 .baical {
-    padding-top: 15px;
+    margin: 15px auto 0;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(../../../images/baical__background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1185px) {
+    .baical {
+        width: 100%;
+        min-height: 640px;
+    }    
 }
 
 @media screen and (max-width: 768px) {
+    .baical {        
+        margin-top: 8px;
+        min-height: 480px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
     .baical {
-        padding-top: 8px;
-    }  
-} 
+        margin-top: 12px;
+        min-height: 200px;
+    }    
+}

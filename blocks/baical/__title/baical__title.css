@@ -1,35 +1,16 @@
 .baical__title {
-    margin: 245px 0 32px;
+    margin: 0 0 32px;
     width: 560px;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
 }
-
-
-@media screen and (max-width: 1024px) {
-    .baical__title {
-        margin: 195px 0 32px;
-    }
-        
-}
-
-@media screen and (max-width: 768px) {
-    .baical__title {
-        margin: 115px 0 32px;
-    }
-        
-}
-
 
 @media screen and (max-width: 560px) {
     .baical__title {
         width: 100%;
-        margin: 28px 0 16px;
         font-size: 32px;
-        line-height: 35px;
-        
-    }
-        
+        line-height: 35px;        
+    }        
 }

@@ -1,6 +1,7 @@
 .baical__overlay {    
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: rgb(42, 44, 47, .3);
     width: 100%;
@@ -20,18 +21,14 @@
     }   
 } 
 
-
 @media screen and (max-width: 768px) {
     .baical__overlay {
         min-height: 480px;
     }   
 }   
 
-
 @media screen and (max-width: 320px) {
     .baical__overlay {
         min-height: 200px;
     }   
-}   
-
-
+}

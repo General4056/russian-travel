@@ -4,16 +4,10 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 680px) {
-    .places__website {
+@media screen and (max-width: 750px) {
+    .places__website {        
         align-self: flex-start;
         padding-top: 32px;
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    .places__website {
         padding: 32px 16px 0px;
     }
     
