@@ -9,16 +9,14 @@
     .places__image {
         max-width: 440px;
         padding-right: 32px;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 950px) {
     .places__image {
         max-width: 340px;
         padding-right: 28px;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 750px) {
@@ -26,6 +24,5 @@
         max-width: 100%;
         padding: 0;
         align-self: center;
-    }
-    
+    }    
 }

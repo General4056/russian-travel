@@ -11,8 +11,7 @@
     .places__title {
         width: 440px;
         padding-right: 32px;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 950px) {
@@ -21,8 +20,7 @@
         padding-right: 28px;
         font-size: 42px;
         line-height: 46px;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 750px) {
@@ -31,6 +29,5 @@
         max-width: 280px;
         font-size: 32px;
         line-height: 35px;
-    }
-    
+    }    
 }
